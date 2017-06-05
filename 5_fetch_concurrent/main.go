@@ -1,6 +1,10 @@
 /**
 Fetch several urls concurrently.
 It will take as long as the longest fetch
+
+A goroutine is a concurrent function execution.
+A channel is a communication method that allows one goroutine to pass
+values of a specified typ to another goroutine.
 */
 
 package main
