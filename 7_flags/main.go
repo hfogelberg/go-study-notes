@@ -13,6 +13,7 @@ import (
 
 // Arguments: name of flag, default value, messag to user
 // if and invalid value is passed
+// The messages are displayed when the help is shown (-h)
 var n = flag.Bool("n", false, "omit trailing spaces")
 var sep = flag.String("s", " ", "separator")
 
